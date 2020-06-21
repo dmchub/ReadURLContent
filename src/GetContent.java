@@ -11,7 +11,7 @@ public class GetContent {
     private static void readContent(String dest) {
         try {
             URL url = new URL(dest);
-            System.out.println("sdhasdhg" + url.getContent());
+            System.out.println("sdhasd" + url.getContent());
         } catch (Exception e){
             System.err.println("Try again");
             GetContent.main(new String[]{""});
